@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#maincalculator{
+    width: 400px;
+    background-color: rgb(44, 44, 44);
+}
+#inputcontainer{
+    height: 150px;
+}
+input{
+    box-sizing: border-box;
+    height: 100%;
+    width:100%;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+#buttoncontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 12px;
+}
+button{
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(82, 82, 82);
+    border: none;
+    color: white;
+    transition: all 0.3s;
+}
+button:active{
+    background-color: gray;
+    scale: 0.8;
+}
+.orange{
+    color: orange;
+}
+#unique{
+    background-color: orange;
+
+}
